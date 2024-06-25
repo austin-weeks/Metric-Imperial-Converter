@@ -8,8 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet">
   </head>
-  <body>
+  <body style="margin: auto; max-width: 1000px;">
     <header>
       <h1>Metric/Imperial Converter</h1>
     </header>
@@ -22,6 +27,17 @@
       <code>/api/convert?input=kg</code><br>
       <h3>Example return</h3>
       <code>{ initNum: 3.1, initUnit: 'mi', returnNum: 4.98895, returnUnit: 'km', string: '3.1 miles converts to 4.98895 kilometers' }</code>
+      <h3>Valid Units</h3>
+      <code>
+        <ul>
+          <li>mi</li>
+          <li>km</li>
+          <li>gal</li>
+          <li>l</li>
+          <li>lbs</li>
+          <li>kg</li>
+        </ul>
+      </code>
     </section>
     <hr style='margin: 50px'>
     <section>

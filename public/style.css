@@ -1,4 +1,8 @@
+html {
+    font-family: 'Inter';
+}
 code {
+    font-family: 'JetBrains Mono';
     background-color: whitesmoke;
 }
 
