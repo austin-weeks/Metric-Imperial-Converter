@@ -1,3 +1,3 @@
 # Metric-Imperial Converter
 
-This is the boilerplate for the Metric-Imperial Converter project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/metric-imperial-converter
+My implementation of the Metric-Imperial Converter for freeCodeCamp's Quality Assurance Course. The original boilerplate repository can be found at [freeCodeCamp's GitHub Page](https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter.git).
